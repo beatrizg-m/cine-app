@@ -1,0 +1,5 @@
+<h1> CineApp </h1>
+
+<%= @movies.each do |m|%>
+  <%= link_to m.title, movie_path(m) %>
+<% end %>
